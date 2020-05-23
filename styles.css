@@ -1,0 +1,70 @@
+html {
+	padding: 0;
+}
+body {
+	font-family: monospace;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: lemonchiffon;
+	color: #444;
+}
+
+hr {
+	width: 100%;
+	margin: 2em;
+	gorder-top: 1px solid #e6d159;
+}
+
+h3 {
+	width: 100%;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	font-size: large;
+	line-height: 1.6;
+	width: 100%;
+}
+
+a {
+	width: 100%;
+	text-align: center;
+	margin: 0.5em;
+}
+
+table {
+	width: 100%;
+	font-size: large;
+	line-height: 1.6;
+	width: 100%;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+	max-width: 700px;
+}
+
+@media only screen and (min-width: 600px) {
+	.container {
+		width: 85%;
+	}
+}
+
+.name {
+	text-align: right;
+	width: 50%;
+}
+
+.score {
+	padding-left: 2em;
+}
+
+.clock {
+	margin-bottom: 1em;
+}
+
