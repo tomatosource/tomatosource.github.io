@@ -13,7 +13,13 @@ body {
 hr {
 	width: 100%;
 	margin: 2em;
-	gorder-top: 1px solid #e6d159;
+	border-top: 1px solid #e6d159;
+}
+
+h1 {
+	padding-top: 1em;
+	width: 100%;
+	text-align: center;
 }
 
 h3 {
