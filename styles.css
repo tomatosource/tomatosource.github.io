@@ -39,6 +39,7 @@ table {
 	font-size: large;
 	line-height: 1.6;
 	width: 100%;
+	margin-bottom: 3em;
 }
 
 .container {
@@ -68,3 +69,12 @@ table {
 	margin-bottom: 1em;
 }
 
+@media (prefers-color-scheme: dark) {
+	body {
+		background: #0b002b;
+		color: #ffecc7;
+	}
+	a {
+		color: white;
+	}
+}
