@@ -45,8 +45,6 @@ function setCountdown(endDate, selector) {
 }
 
 window.addEventListener('load', function () {
-  setCountdown('05/24/2020 12:30:00 PM PDT', 'taskOneClock');
-  setCountdown('05/24/2020 12:30:00 PM PDT', 'taskTwoClock');
-  setCountdown('05/24/2020 12:30:00 PM PDT', 'taskThreeClock');
-  setCountdown('05/24/2020 12:30:00 PM PDT', 'taskFourClock');
+  setCountdown('05/27/2020 12:30:00 PM PDT', 'taskOneClock');
+  setCountdown('05/31/2020 12:30:00 PM PDT', 'taskTwoClock');
 });
